@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.6;
+  color: #000000;
+  font-family: 'Libre Baskerville', serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin: 1.6rem;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+#title {
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+#tribute-info {
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000;
+}
+
+.section-heading {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+a {
+  text-decoration: none;
+  display: inline;
+  color: inherit;
+}
+
+a:hover {
+  border-bottom: 2px #333 solid;
+}
+
+#signature {
+  height: 8rem;
+}
+
+#image {
+  max-width: 300px;
+  border-radius: 50%;
+}
+
+#main {
+  margin-bottom: 4rem;
+}
+#main p {
+  line-height: 1.8;
+}
+
+#img-div {
+  padding-top: 20px;
+  max-height: 500px;
+  width: 100%;
+  background: #f6c049;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.header {
+  text-align: center;
+  background: #a16526;
+  height: 100px;
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem 0;
+  background-color: #000000;
+  color: #f6c049;
+}
+
+h2 {
+  color: #fff;
+  padding-top: 10px;
+}
+
+h3 {
+  text-align: center;
+  margin: 20px 0;
+  color: #000000;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+span {
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.6rem;
+}
+
+.content {
+  padding: 0 8rem;
+}
+
+.children {
+  width: 80%;
+}
+
+.flex-items {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+  height: 100%;
+}
+
+#painting-1792 {
+  width: 40%;
+}
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+ol {
+  padding: 0;
+}
+
+ol li {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.2rem 0;
+}
+
+@media (max-width: 1068px) {
+  #image {
+    width: 200px;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  #image {
+    width: 340px;
+    border-radius: 0;
+  }
+}
